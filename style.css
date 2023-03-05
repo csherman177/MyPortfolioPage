@@ -40,10 +40,11 @@ padding: 0;
     background-color:aliceblue;
 }
 
-.box-1 {
+.flex-container {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: nowrap;
+    height: 8px;
+    width: 8px;
 }
-
-
 
