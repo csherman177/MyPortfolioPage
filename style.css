@@ -40,5 +40,10 @@ padding: 0;
     background-color:aliceblue;
 }
 
+.box-1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 
