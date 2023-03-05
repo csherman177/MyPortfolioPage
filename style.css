@@ -18,8 +18,13 @@
     font-size: 20pt;
 }
 
-.navbarlink a:hover {  
+.navbarlink:hover {  
   background-color:blue;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0,0,0,0.5)) rgba(0, 0, 0, 0.5);
+    height: 50%;
 }
 
 
