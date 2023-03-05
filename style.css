@@ -40,11 +40,20 @@ padding: 0;
     background-color:aliceblue;
 }
 
-.flex-container {
+#flexible-container {
     display: flex;
-    justify-content: flex-end;
-    flex-wrap: nowrap;
-    height: 8px;
-    width: 8px;
+    width: 30px;
+    height: 30px
+}
+
+#photo1 {
+    width:10%;
+    height: 10%;
+}
+
+.flexible-container2 {
+    display: flex;
+    width: 30px;
+    height: 30px;
 }
 
