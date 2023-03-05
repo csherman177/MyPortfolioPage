@@ -1,3 +1,8 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
 
 .text-right li {
     display:inline;
@@ -22,9 +27,17 @@
   background-color:blue;
 }
 
-.hero-image {
-    background-image: linear-gradient(rgba(0,0,0,0.5)) rgba(0, 0, 0, 0.5);
-    height: 50%;
+.hero {
+    width: 100%;
+    height: 10rem;
+}
+
+.hero-text{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    color: black;
+    background-color:aliceblue;
 }
 
 
