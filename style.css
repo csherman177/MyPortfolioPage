@@ -50,7 +50,7 @@ padding: 0;
     justify-content: flex-end;
 }
 
-.work-container{
+.work-container {
     display: flex;
 }
 
@@ -60,5 +60,12 @@ padding: 0;
     justify-content: flex-end;
 }
 
+.About_Me {
+    display: flex;
+    flex-direction: column;
+}
 
-
+.contact_me {
+    display: flex;
+    flex-direction: column;
+}
