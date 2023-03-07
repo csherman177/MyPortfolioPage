@@ -55,9 +55,13 @@ padding: 0;
     flex-direction: column;
 }
 
+.work-container h1 {
+    text-align: center;
+}
+
 .larger_image {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .About_Me {
@@ -72,13 +76,13 @@ padding: 0;
 
 .image_1 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     width: 100%;
   }
 
   .image_2 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     width: 100%;
   }
 
