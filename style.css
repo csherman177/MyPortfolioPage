@@ -2,8 +2,11 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+background-color: lightsteelblue;
 }
-
+li{
+    list-style: none;
+}
 .text-right li {
     display:inline;
 }
@@ -11,7 +14,6 @@ padding: 0;
 .text-right {
     text-align: right;
     list-style: none;
-    background-color: lightcoral;
     overflow: hidden;
 }
 
@@ -28,8 +30,8 @@ padding: 0;
 }
 
 .hero {
-    width: 100%;
-    height: 10rem;
+    width: 99%;
+    height: 10%;
 }
 
 .hero-text{
@@ -50,51 +52,75 @@ padding: 0;
     flex-direction: row;
 }
 
-.work-container {
+/* .work-container {
     display: flex;
     flex-direction: column;
-}
+    align-items: center;
+} */
 
 .work-container h1 {
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.flex{
+     display: flex;
+    justify-content: center;
+}
+.flex p {
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .larger_image {
-    display: flex;
-    justify-content: flex-start;
+    /* display: flex;
+    justify-content: center; */
+    height: 30rem;
+    /* width: 10%; */
 }
 
 .About_Me {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.About_Me h1 {
+    text-align: center;
+}
+
+.About_Me p {
+    text-align: center;
 }
 
 .contact_me {
     display: flex;
-    flex-direction: column;
 }
 
 .image_1 {
     display: flex;
     justify-content: center;
-    width: 100%;
-  }
+    flex-wrap: wrap;
+      }
+
+.image_1 :hover {
+    opacity:1;
+}
 
   .image_2 {
     display: flex;
     justify-content: center;
-    width: 100%;
   }
 
   .class_project {
     display: flex;
   }
 
-body {
-    display: flex;
-    flex-direction: column;
-    width:100%;
-}
+
 
 .class_project {
     display:flex;
@@ -102,6 +128,36 @@ body {
 }
 
 .box {
- padding: 2%;
+ display: flex;
+ /* justify-content: flex-end;
+ align-items: end; */
+ min-height: 200px;
+ max-height:  200px;
+ flex-basis: calc(50% - 16px);
+ margin: 8px;
+}
+
+.box1{
+    background-image: url('./images/ComingSoon.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+   
+}
+
+footer ul{
+    display: flex;
+    margin-left:20px;
+    }
+
+footer ul li{
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;    
 }
 
